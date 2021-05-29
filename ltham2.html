@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!-- bài 1 :bình phương 1 số
+	<script type="text/javascript">
+		
+		function x2(a) {
+
+			return a*a
+		}
+			let a =prompt('nhập số bạn thích')
+		alert(x2(a))
+	</script> -->
+
+
+
+		<!-- bài 2: tính diện tích hình tròn
+	<script type="text/javascript">
+		function dientich(r) {
+			return 3.14*r*r
+		}
+		alert(dientich(4))
+	</script> -->
+
+<!-- 		bài 3 :khởi tạo hàm tính dai thừa
+<script type="text/javascript">
+	let tich =1
+	function chamthan(a) {
+		for (var i = 1; i <= a; i++) {
+			tich = tich *i
+		}return tich
+	}
+	let a =+prompt('nhập số bạn muốn tính !')
+	document.write( 'giá trị của số'+chamthan(a))
+</script> -->
+
+
+
+<!-- bài 4 : kiểm tra ký tự nhập vào
+<script type="text/javascript">
+	function ktra(a) {
+		if (isNaN(a)) {
+			return true
+
+		}else
+		return false
+	}
+	let a = +prompt('hihihi')
+	
+	alert(ktra(a))
+</script> -->
+
+<!-- 	bài 5 : so sánh và hiển thị số bé nhất
+<script type="text/javascript">
+	let a =+prompt('nhập số thứ 1');
+	let b=+prompt('nhập số thứ 2');
+	let c=+prompt('nhập số thứ 3');
+	function sosanh(a,b,c) {
+		let min =a
+		if (a<b && a<c) {
+			alert(a)
+
+		}else if (b<c ) {
+			alert(b)
+
+		}else
+		alert(c)
+	}
+	sosanh(a,b,c)
+		
+	
+</script> -->
+
+
+
+<!-- 
+
+	bài 6 :ktra số nguyên dương
+	hàm parseInt là kiểm tra số ngyên dương
+<script type="text/javascript">
+	let a =+prompt('nhập số bạn muốn kiểm tra');
+	function ktra(a) {
+		if (0<a && parseInt(a)) {
+			return true
+		}else
+		return false
+	}
+	alert(ktra(a))
+</script>
+
+ -->
+
+
+
+ 		<!-- bài 7 ;đổi chỗ  2 số
+<script type="text/javascript">
+	let a =+prompt('nhập 1 số')
+	let b =+prompt('nhập 1 số')
+	function doicho(a,b) {
+		let c =a
+		a=b
+		b=c
+		return (a+';'+b)
+	}
+	alert(doicho(a,b))
+</script> -->
+
+
+<!-- 	bài 8: tạo hàm đảo ngược phần tử trong mảng
+<script type="text/javascript">
+	function daonguoc(a) {
+		a.reverse()
+		return a
+	}
+	let arr =[1,4,7,8,9,6,4,3]
+	alert(daonguoc(arr))
+</script> -->
+
+
+
+
+
+<!-- 
+	bài 9: kiểm tra pần tử có nằm trong mảng hay không
+<script type="text/javascript">
+	
+	function ktra(a) {
+		let count=0
+		let arr =[1,2,2,2,2,3,4,5,'haha','hihi','kk']
+		for (var i = 0; i < arr.length; i++) {
+			if (arr.indexOf(a)!=-1) {
+			count++
+			return count;
+		}
+		}
+		
+	}
+	let a = +prompt('nhập từ tìm kiếm')
+	alert(ktra(a))
+</script> -->
+</body>
+</html>

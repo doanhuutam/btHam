@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function ktra(a) {
+			
+			if (a<2) {
+				return 0;
+			}else {for (var i = 2; i < a; i++) {
+				if (a%i==0) {
+					
+					return 'đéo phải số ngtố';
+				}
+				
+			}return 'chuẩn mẹ nó luôn';
+				}
+			}
+		let a =+prompt('nhập số mà bạn muốn kiểm tra')
+			// if (ktra(a)==0) {
+			// 	document.write('jjjjjj')
+			// }else
+			// document.write('trueeeeeeee')
+			document.write(ktra(a))
+	</script>
+</body>
+</html>
